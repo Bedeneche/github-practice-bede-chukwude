@@ -1,12 +1,20 @@
-This  project shows simple disk usage. it is part of my DevOp journey in Tech365. it provides a warning when disk usage reaches a specified threshold.
-
+This project is a simple memory usage checker. It is part of my DevOps learning journey at Tech365. It displays total, used, and free memory and provides a status message based on the available memory.
 
 ## Setup
+
+This script is designed to run on a Linux system.
+
 Make the script executable:
+
+bash
 chmod +x memch.sh
 
 ## Usage
+
 Run the script:
+
+bash
 ./memch.sh
-The script displays total, used, and free memory and reports the memory status.
-Remember to run project on linx 
+
+
+The script displays the total, used, and free memory and reports the current memory status.
