@@ -1,0 +1,1 @@
+This  project shows simple disk usage. it is part of my DevOp journey in Tech365. it provides a warning when disk usage reaches a specified threshold.
