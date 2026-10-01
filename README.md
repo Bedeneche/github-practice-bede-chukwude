@@ -9,3 +9,4 @@ chmod +x memch.sh
 Run the script:
 ./memch.sh
 The script displays total, used, and free memory and reports the memory status.
+Remember to run project on linx 
