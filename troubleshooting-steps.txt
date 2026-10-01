@@ -1,0 +1,9 @@
+| Problem                          | Cause                                   | Solution                                      |
+| -------------------------------- | --------------------------------------- | --------------------------------------------- |
+|  free: command not found`        | Script was run in Windows Git Bash      | Run it inside Ubuntu                          |
+|  /etc/os-release` not found      | Not inside Linux VM                     | Enter Ubuntu with `vagrant ssh`               |
+|  /vagrant` not found             | Shared folder wasn't configured         | Add `config.vm.synced_folder ".", "/vagrant"` |
+|  vagrant scp` unavailable        | SCP command/plugin wasn't available     | Use Vagrant shared folder                     |
+|  vagrant upload` used wrong path | Destination interpreted as Windows path | Use shared folder                             |
+|  integer expression expected`    | `519Mi` isn't an integer                | Normalize the value before numeric comparison |
+|  ./memch.sh` not found           | Script wasn't in current directory      | `cd /vagrant` or use `/vagrant/memch.sh`      |
